@@ -6,5 +6,6 @@ document.addEventListener('DOMContentLoaded', function() {
         event.preventDefault();
         const username = usernameInput.value;
         alert('Login successful for user: ' + username);
+        
     });
 });
